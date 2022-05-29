@@ -1,3 +1,6 @@
+:root {
+    --bg-color: #E7FAFE;
+}
 body {
     margin: 0;
     padding: 0;
@@ -6,7 +9,7 @@ body {
 .header-text {
     border-radius: 8% 0% 0% 8%;
     margin-right: 0;
-    background-color: #E7FAFE;
+    background: var(--bg-color);
 }
 .top-left-badge {
     max-width:38%;
@@ -15,12 +18,33 @@ body {
 .header-text h1 {
     font-size: 64px;
 }
-.top-right-badge {
-    margin-left: -58px;
-}
 .header-btn {
     background-color: rgba(0, 0, 0, 0.05);
 }
+.top-right-badge {
+    margin-left: -58px;
+}
 .header-image {
     border-radius: 0% 8% 8% 0%;
+}
+.categories {
+    background: var(--bg-color);
+}
+.breakfast {
+    background: linear-gradient(180deg, rgba(94, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%);
+}
+.vegan {
+    background: linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%);
+}
+.meat {
+    background: linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%);
+}
+.dessart {
+    background: linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%);
+}
+.lunch {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
+}
+.chocholate {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
 }
