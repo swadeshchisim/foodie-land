@@ -3,4 +3,24 @@ body {
     padding: 0;
     box-sizing: content-box;
 }
-
+.header-text {
+    border-radius: 8% 0% 0% 8%;
+    margin-right: 0;
+    background-color: #E7FAFE;
+}
+.top-left-badge {
+    max-width:38%;
+    background-color: #fff;
+}
+.header-text h1 {
+    font-size: 64px;
+}
+.top-right-badge {
+    margin-left: -58px;
+}
+.header-btn {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.header-image {
+    border-radius: 0% 8% 8% 0%;
+}
