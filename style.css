@@ -1,4 +1,5 @@
 :root {
+    --text-color: rgba(0, 0, 0, 0.6);
     --font-size: 16px;
     --bg-color: #E7FAFE;
     --btn-bg: rgba(0, 0, 0, 0.05);
@@ -64,4 +65,10 @@ body {
     top: 50px;
     right: 40px;
     z-index: 1;
+}
+.chef-image-container {
+    background: var(--bg-gradient);
+}
+.chef-image {
+    margin-left: -52px;
 }
