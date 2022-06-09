@@ -72,3 +72,18 @@ body {
 .chef-image {
     margin-left: -52px;
 }
+.slide-container {
+    position: relative;
+}
+.slide-counter {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    background-color: rgba(18, 18, 18, 0.7);
+}
+.slide-indicator {
+    margin-left: -50px;
+}
+.slide-indicator > i {
+    font-size: 9px;
+}
