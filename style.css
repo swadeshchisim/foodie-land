@@ -100,3 +100,20 @@ body {
 .blog-title {
     font-size: var(--blog-title-size);
 }
+.newsletter {
+    height: 500px;
+    background: var(--bg-color);
+}
+.subscribe-btn {
+    right: 110px;
+}
+.bg-image .bg-image-1{
+    position: relative;
+    bottom: 142px;
+    left: -292px;
+}
+.bg-image .bg-image-2{
+    position: relative;
+    bottom: 74px;
+    right: -295px;
+}
