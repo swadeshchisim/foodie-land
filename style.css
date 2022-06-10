@@ -2,6 +2,7 @@
     --text-color: rgba(0, 0, 0, 0.6);
     --font-size: 16px;
     --title-font-size: 48px;
+    --blog-title-size: 18px;
     --bg-color: #E7FAFE;
     --btn-bg: rgba(0, 0, 0, 0.05);
     --instagram-post-color: #262626;
@@ -95,4 +96,7 @@ body {
 }
 .card-body > p {
     color: var(--instagram-post-color);
+}
+.blog-title {
+    font-size: var(--blog-title-size);
 }
