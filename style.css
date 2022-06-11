@@ -122,3 +122,6 @@ body {
 .copyright-credit {
     color: #FF7967;
 }
+.footer-social-icon i{
+    padding: 0 20px;
+}
