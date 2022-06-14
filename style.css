@@ -14,22 +14,22 @@ body {
     padding: 0;
     box-sizing: content-box;
 }
-.header-text {
-    border-radius: 8% 0% 0% 8%;
+.header-content {
+    border-radius: 10% 0% 0% 10%;
     margin-right: 0;
     background: var(--bg-color);
 }
 .top-left-badge {
-    max-width:38%;
+    width:38%;
     background-color: #fff;
 }
-.header-text h1 {
+.header-content .header-title {
     font-size: 64px;
 }
 .header-btn {
     background: var(--btn-bg);
 }
-.top-right-badge {
+.header-right-badge {
     margin-left: -58px;
 }
 .header-image {
@@ -124,4 +124,36 @@ body {
 }
 .footer-social-icon i{
     padding: 0 20px;
+}
+
+
+/*******************************************
+    Media query styles for mobile device
+********************************************/
+@media screen and (max-width: 576px) {
+    .header-content {
+        padding: 0 0px;
+        border-radius: 0;
+    }
+    .header-title.header-title {
+        font-size: 48px;
+    }
+    .top-left-badge {
+        width: 42%;
+    }
+    .header-right-badge {
+        margin-left: 30px;
+    }
+    .header-thumb-badge {
+        width: 75%;
+        margin-top: -90px;
+    }
+    .header-image {
+        width:100%;
+        border-radius: 8% 8% 8% 8%;
+        padding-left: 11px;
+    }
+    .top-button {
+        padding: 0px;
+    }
 }
