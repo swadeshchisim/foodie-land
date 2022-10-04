@@ -35,7 +35,7 @@ body {
 .header-image {
     border-radius: 0% 8% 8% 0%;
 }
-.categories {
+.categories-button {
     background: var(--bg-color);
 }
 .breakfast {
@@ -109,13 +109,13 @@ body {
 }
 .bg-image .bg-image-1{
     position: relative;
-    bottom: 142px;
-    left: -292px;
+    bottom: 6px;
+    left: -306px;
 }
 .bg-image .bg-image-2{
     position: relative;
-    bottom: 74px;
-    right: -295px;
+    bottom: 7px;
+    right: -307px;
 }
 
 /* ******************Copyrights Credit***************** */
@@ -130,7 +130,7 @@ body {
 /*******************************************
     Media query styles for mobile device
 ********************************************/
-@media screen and (max-width: 576px) {
+@media only screen and (max-width: 576px) {
     .header-content {
         padding: 0 0px;
         border-radius: 0;
@@ -155,5 +155,12 @@ body {
     }
     .top-button {
         padding: 0px;
+    }
+    .responsive img {
+        width: 30%;
+    }
+    .section-title {
+        font-size: 38px;
+        margin-bottom: 20px;
     }
 }
