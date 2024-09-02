@@ -126,6 +126,12 @@ body {
     .card-title {
         font-size: 18px;
     }
+    /* .categories-area > section {
+        width: 350px;
+    } */
+    .newsletter-input {
+        width: 350px;
+    }
     
 }
 
@@ -160,6 +166,9 @@ body {
     .section-title {
         font-size: 32px;
         margin-bottom: 20px;
+    }
+    .categories-area > section {
+        width: 250px;
     }
     .newsletter-input {
         width: 280px;
