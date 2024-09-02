@@ -1,6 +1,5 @@
 :root {
     --text-color: rgba(0, 0, 0, 0.6);
-    --font-size: 16px;
     --title-font-size: 48px;
     --blog-title-size: 18px;
     --bg-color: #E7FAFE;
@@ -60,8 +59,8 @@ body {
     font-size: var(--title-font-size);
 }
 .custom-text {
+    width: 500px;
     color: rgba(0, 0, 0, 0.6);
-    font-size: var(--font-size);
 }
 .gradient-bg {
     background: var(--bg-gradient);
@@ -128,9 +127,23 @@ body {
 
 
 /*******************************************
-    Media query styles for mobile device
+    Media query styles for medium device
 ********************************************/
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 1024px) {
+    .section-title {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .card-title {
+        font-size: 18px;
+    }
+    
+}
+
+/*******************************************
+    Media query styles for small device
+********************************************/
+@media only screen and (max-width: 600px) {
     .header-content {
         padding: 0;
         border-radius: 0;
@@ -156,7 +169,7 @@ body {
         width: 30%;
     }
     .section-title {
-        font-size: 38px;
+        font-size: 32px;
         margin-bottom: 20px;
     }
 }
