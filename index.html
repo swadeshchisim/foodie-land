@@ -71,13 +71,13 @@
         <hr>
         <!-- ------------Navbar ends here--------- -->
 
-        <!-- ---------------Header content area starts here------------- -->
+        <!-- ---------------Banner area starts here------------- -->
         <section>
             <div class="container py-5">
-                <div class="row">
-                    <div class="col-md-6 d-flex justify-content-center pe-0 header-content">
+                <div class="row flex-column-reverse flex-md-row">
+                    <div class="col-md-6 d-grid pe-0 header-content">
                         <div>
-                            <div class="fw-semibold px-3 py-2 mt-5 my-3 rounded-pill top-left-badge">
+                            <div class=" fw-semibold px-3 py-2 mt-5 my-3 rounded-pill top-left-badge">
                                 <img class="me-2" src="images/book.png" alt="">
                                 <span>Hot Recipes</span>
                             </div>
@@ -112,21 +112,23 @@
                             </div>
                         </div>
                     </div>
+                    <!-- banenr image area starts here -->
                     <div class="col-md-6 ps-0">
-                        <div class="position-absolute mt-5 header-right-badge">
+                        <div class="position-absolute mt-md-5 header-right-badge d-none d-lg-block">
                             <img class="header-thumb-badge" src="images/Badge.png" alt="">
                         </div>
                         <img class="header-image img-fluid" src="images/header-banner.png" alt="">
                     </div>
+                    <!-- banenr image area ends here -->
                 </div>
             </div>
         </section>
-        <!-- ---------------Header content area ends here--------------- -->
+        <!-- ---------------Banner area ends here--------------- -->
     </header>
     <!-- ------------Header section ends here------------ -->
 
     <!-- --------------Main section starts here------------- -->
-    <main>
+    <main class="d-none">
         <!-- --------------Categories section starts here------------- -->
         <section class="container">
           <section class="d-flex justify-content-between">
@@ -135,7 +137,7 @@
           </section>
         <!-- --------------------Categories Product area starts here--------------------- -->
           <section class="categories-area">
-            <section class="d-flex flex-column align-items-center align-items-md-none my-5">
+            <section class="d-grid row-cols-6 align-items-center align-items-md-none my-5">
               <div class=" px-5 py-4 my-5 rounded-5 breakfast">
                 <img src="images/categories/breakfast.png" alt="">
                 <h6 class="text-center mt-5">Breakfast</h6>
@@ -783,14 +785,7 @@
         </div>
         <!------------------copyrights area starts here------------------->
         <div class="row pt-5 pb-2">
-          <div class="col-md-8 col-lg-8 d-flex justify-content-end">
-            <p>&copy;2022 Flowbase. Powered by <a class="copyright-credit" href="#">webflow</a></p>
-          </div>
-          <div class="col-md-4 col-lg-4 d-flex justify-content-end footer-social-icon">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-          </div>
+          <p class="text-center">&copy;2024 All Rights Reaserved.</p>
         </div>
         <!------------------copyrights area starts here------------------->
       </section>
