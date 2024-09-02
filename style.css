@@ -100,21 +100,10 @@ body {
     font-size: var(--blog-title-size);
 }
 .newsletter {
-    height: 500px;
     background: var(--bg-color);
 }
 .subscribe-btn {
-    right: 110px;
-}
-.bg-image .bg-image-1{
-    position: relative;
-    bottom: 6px;
-    left: -306px;
-}
-.bg-image .bg-image-2{
-    position: relative;
-    bottom: 7px;
-    right: -307px;
+    padding: 12px 30px;
 }
 
 /* ******************Copyrights Credit***************** */
@@ -171,5 +160,8 @@ body {
     .section-title {
         font-size: 32px;
         margin-bottom: 20px;
+    }
+    .newsletter-input {
+        width: 280px;
     }
 }
